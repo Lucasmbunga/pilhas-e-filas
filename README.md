@@ -1,4 +1,4 @@
-#Estruturas de Dados Lineares: Pilha e Fila (Java)
+# Estruturas de Dados Lineares: Pilha e Fila (Java)
 
 Este repositório contém implementações autorais de duas estruturas de dados fundamentais: Pilha (Stack) e Fila (Queue). Ambas foram desenvolvidas em Java utilizando arrays genéricos com capacidade dinâmica.
 
@@ -17,7 +17,7 @@ As implementações foram desenvolvidas manualmente ou seja, usando arrays  simp
 
  ## Estruturas Implementadas
  
-### Pilha (Stack)
+### 1. Pilha (Stack)
 A Pilha segue o princípio LIFO (Last In, First Out), onde o último elemento a entrar é o primeiro a sair.
 
 Métodos Principais:
@@ -37,10 +37,10 @@ Complexidade:
 
 Observação: A implementação conta com um método resize() privado que dobra a capacidade do array interno sempre que o limite é atingido, garantindo que a pilha nunca transborde (dentro dos limites da JVM).
 
-### Fila (Queue)
+### 2.  Fila (Queue)
 A Fila segue o princípio FIFO (First In, First Out), onde o primeiro elemento a entrar é o primeiro a ser removido.
 
-Métodos Principais:
+#### Métodos Principais:
 
 • enqueue(T item): Adiciona um elemento ao final da fila.
 • dequeue(): Remove o elemento da frente da fila.
@@ -50,31 +50,25 @@ Métodos Principais:
 • clear(): Este método limpa a pilha.
 • toString():o método toString() em Java serve para converter um objeto em uma representação textual (String).
 
- Complexidade:
+ #### Complexidade:
 
 * enqueue → O(1)
 * dequeue → O(n)
 
-Observação: No método dequeue(), a implementação realiza o deslocamento (shift) de todos os elementos restantes para manter a integridade da ordem, garantindo que o próximo elemento esteja sempre no índice 0.
+Observação: No método dequeue(), a implementação realiza o deslocamento (shift) de todos os elementos restantes para manter a integridade da ordem, garantindo que o próximo elemento esteja sempre no índice 0, o que torna a operação `dequeue` O(n) devido ao deslocamento de elementos.
 
 ## Detalhes de Implementação
 Ambas as classes utilizam Generics (<T>), permitindo que as estruturas armazenem qualquer tipo de objeto (Integer, String, objetos customizados, etc.).
 
 ---
 
-#  Conceitos aplicados:
+##  Conceitos aplicados:
 
 * Tipos Abstratos de Dados (TAD)
 * Estruturas lineares
 * Alocação dinâmica de memória (arrays redimensionáveis)
 * Genéricos em Java (`<T>`)
 * Complexidade de algoritmos (Big-O)
-
----
-
-#  Observações
-
-* A fila foi implementada com array simples, o que torna a operação `dequeue` O(n) devido ao deslocamento de elementos.
 
 ---
 
