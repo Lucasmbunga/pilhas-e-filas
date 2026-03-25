@@ -5,13 +5,12 @@ Este projeto implementa os Tipos Abstratos de Dados (TAD):
 * **Pilha (Stack)** → LIFO (*Last In, First Out*)
 * **Fila (Queue)** → FIFO (*First In, First Out*)
 
-As implementações foram desenvolvidas manualmente, sem uso de estruturas prontas, com foco em compreender o funcionamento interno e aplicar boas práticas de programação.
+As implementações foram desenvolvidas manualmente ou seja, usando arrays  simples nativas , sem uso de estruturas prontas, com foco em compreender o funcionamento interno e aplicar boas práticas de programação.
 
-# Tecnologias Utilizadas
+# Linguagens Utilizadas
 
 * Java 
 * Python 
-* Git & GitHub 
 
 ---
 
