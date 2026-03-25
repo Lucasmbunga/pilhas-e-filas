@@ -74,7 +74,7 @@ Ambas as classes utilizam Generics (<T>), permitindo que as estruturas armazenem
 
 ##  Autor
 
-** Lucas Mbunga António Pascoal **
+**Lucas Mbunga António Pascoal**
 
 ## Licença
 
