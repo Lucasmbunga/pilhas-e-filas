@@ -4,11 +4,11 @@ class Stack:
         self.length = 0
 
     def push(self, item):
-        self._aumentar_capacidade()
+        self.resize()
         self.items[self.length] = item
         self.length += 1
 
-    def _aumentar_capacidade(self):
+    def resize(self):
         if self.length == len(self.items):
             new_items = [None] * (len(self.items) * 2)
 
