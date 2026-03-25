@@ -22,7 +22,7 @@ A Pilha segue o princípio LIFO (Last In, First Out), onde o último elemento a 
 
 Métodos Principais:
 
-* ** push**(T item): Adiciona um elemento ao topo.
+* **push(T item)**: Adiciona um elemento ao topo.
 *  **pop()**: Remove e retorna o elemento do topo.
 *  **peek()**: Retorna o topo sem removê-lo.
 *  **isEmpty()**: Retorna true, se a pilha estiver vazia, caso contrário, retorna false.
@@ -42,13 +42,13 @@ A Fila segue o princípio FIFO (First In, First Out), onde o primeiro elemento a
 
 #### Métodos Principais:
 
-*  enqueue(T item): Adiciona um elemento ao final da fila.
-*  dequeue(): Remove o elemento da frente da fila.
-*  peek(): Retorna o primeiro elemento sem removê-lo.
-*  isEmpty(): Retorna true, se a pilha estiver vazia, caso contrário, retorna false.
-*  size(): Retorna o tamanho o número de elementos que estão na pilha.
-*  clear(): Este método limpa a pilha.
-*  toString():o método toString() em Java serve para converter um objeto em uma representação textual (String).
+*  **enqueue(T item)**: Adiciona um elemento ao final da fila.
+*  **dequeue()**: Remove o elemento da frente da fila.
+*  **peek()**: Retorna o primeiro elemento sem removê-lo.
+*  **isEmpty()**: Retorna true, se a pilha estiver vazia, caso contrário, retorna false.
+*  **size()**: Retorna o tamanho o número de elementos que estão na pilha.
+*  **clear()**: Este método limpa a pilha.
+*  **toString()**:o método toString() em Java serve para converter um objeto em uma representação textual (String).
 
  #### Complexidade:
 
